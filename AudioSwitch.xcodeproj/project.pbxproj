@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		359844181ECA020500B829FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 359844171ECA020500B829FB /* AppDelegate.m */; };
+		3598441B1ECA020500B829FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3598441A1ECA020500B829FB /* main.m */; };
+		3598441E1ECA020500B829FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3598441D1ECA020500B829FB /* ViewController.m */; };
+		359844211ECA020500B829FB /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 359844201ECA020500B829FB /* Document.m */; };
+		359844231ECA020500B829FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 359844221ECA020500B829FB /* Assets.xcassets */; };
+		359844261ECA020500B829FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 359844241ECA020500B829FB /* Main.storyboard */; };
+		359844311ECA020600B829FB /* AudioSwitchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 359844301ECA020600B829FB /* AudioSwitchTests.m */; };
+		3598443C1ECA020600B829FB /* AudioSwitchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3598443B1ECA020600B829FB /* AudioSwitchUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3598442D1ECA020600B829FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3598440B1ECA020500B829FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 359844121ECA020500B829FB;
+			remoteInfo = AudioSwitch;
+		};
+		359844381ECA020600B829FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3598440B1ECA020500B829FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 359844121ECA020500B829FB;
+			remoteInfo = AudioSwitch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		359844131ECA020500B829FB /* AudioSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		359844161ECA020500B829FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		359844171ECA020500B829FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3598441A1ECA020500B829FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3598441C1ECA020500B829FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3598441D1ECA020500B829FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3598441F1ECA020500B829FB /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		359844201ECA020500B829FB /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		359844221ECA020500B829FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		359844251ECA020500B829FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		359844271ECA020500B829FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3598442C1ECA020600B829FB /* AudioSwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioSwitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		359844301ECA020600B829FB /* AudioSwitchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioSwitchTests.m; sourceTree = "<group>"; };
+		359844321ECA020600B829FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		359844371ECA020600B829FB /* AudioSwitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioSwitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3598443B1ECA020600B829FB /* AudioSwitchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioSwitchUITests.m; sourceTree = "<group>"; };
+		3598443D1ECA020600B829FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		359844101ECA020500B829FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		359844291ECA020600B829FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		359844341ECA020600B829FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3598440A1ECA020500B829FB = {
+			isa = PBXGroup;
+			children = (
+				359844151ECA020500B829FB /* AudioSwitch */,
+				3598442F1ECA020600B829FB /* AudioSwitchTests */,
+				3598443A1ECA020600B829FB /* AudioSwitchUITests */,
+				359844141ECA020500B829FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		359844141ECA020500B829FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				359844131ECA020500B829FB /* AudioSwitch.app */,
+				3598442C1ECA020600B829FB /* AudioSwitchTests.xctest */,
+				359844371ECA020600B829FB /* AudioSwitchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		359844151ECA020500B829FB /* AudioSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				359844161ECA020500B829FB /* AppDelegate.h */,
+				359844171ECA020500B829FB /* AppDelegate.m */,
+				3598441C1ECA020500B829FB /* ViewController.h */,
+				3598441D1ECA020500B829FB /* ViewController.m */,
+				3598441F1ECA020500B829FB /* Document.h */,
+				359844201ECA020500B829FB /* Document.m */,
+				359844221ECA020500B829FB /* Assets.xcassets */,
+				359844241ECA020500B829FB /* Main.storyboard */,
+				359844271ECA020500B829FB /* Info.plist */,
+				359844191ECA020500B829FB /* Supporting Files */,
+			);
+			path = AudioSwitch;
+			sourceTree = "<group>";
+		};
+		359844191ECA020500B829FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3598441A1ECA020500B829FB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3598442F1ECA020600B829FB /* AudioSwitchTests */ = {
+			isa = PBXGroup;
+			children = (
+				359844301ECA020600B829FB /* AudioSwitchTests.m */,
+				359844321ECA020600B829FB /* Info.plist */,
+			);
+			path = AudioSwitchTests;
+			sourceTree = "<group>";
+		};
+		3598443A1ECA020600B829FB /* AudioSwitchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3598443B1ECA020600B829FB /* AudioSwitchUITests.m */,
+				3598443D1ECA020600B829FB /* Info.plist */,
+			);
+			path = AudioSwitchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		359844121ECA020500B829FB /* AudioSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 359844401ECA020600B829FB /* Build configuration list for PBXNativeTarget "AudioSwitch" */;
+			buildPhases = (
+				3598440F1ECA020500B829FB /* Sources */,
+				359844101ECA020500B829FB /* Frameworks */,
+				359844111ECA020500B829FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioSwitch;
+			productName = AudioSwitch;
+			productReference = 359844131ECA020500B829FB /* AudioSwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3598442B1ECA020600B829FB /* AudioSwitchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 359844431ECA020600B829FB /* Build configuration list for PBXNativeTarget "AudioSwitchTests" */;
+			buildPhases = (
+				359844281ECA020600B829FB /* Sources */,
+				359844291ECA020600B829FB /* Frameworks */,
+				3598442A1ECA020600B829FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3598442E1ECA020600B829FB /* PBXTargetDependency */,
+			);
+			name = AudioSwitchTests;
+			productName = AudioSwitchTests;
+			productReference = 3598442C1ECA020600B829FB /* AudioSwitchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		359844361ECA020600B829FB /* AudioSwitchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 359844461ECA020600B829FB /* Build configuration list for PBXNativeTarget "AudioSwitchUITests" */;
+			buildPhases = (
+				359844331ECA020600B829FB /* Sources */,
+				359844341ECA020600B829FB /* Frameworks */,
+				359844351ECA020600B829FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				359844391ECA020600B829FB /* PBXTargetDependency */,
+			);
+			name = AudioSwitchUITests;
+			productName = AudioSwitchUITests;
+			productReference = 359844371ECA020600B829FB /* AudioSwitchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3598440B1ECA020500B829FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Kun;
+				TargetAttributes = {
+					359844121ECA020500B829FB = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					3598442B1ECA020600B829FB = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 359844121ECA020500B829FB;
+					};
+					359844361ECA020600B829FB = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 359844121ECA020500B829FB;
+					};
+				};
+			};
+			buildConfigurationList = 3598440E1ECA020500B829FB /* Build configuration list for PBXProject "AudioSwitch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3598440A1ECA020500B829FB;
+			productRefGroup = 359844141ECA020500B829FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				359844121ECA020500B829FB /* AudioSwitch */,
+				3598442B1ECA020600B829FB /* AudioSwitchTests */,
+				359844361ECA020600B829FB /* AudioSwitchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		359844111ECA020500B829FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				359844231ECA020500B829FB /* Assets.xcassets in Resources */,
+				359844261ECA020500B829FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3598442A1ECA020600B829FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		359844351ECA020600B829FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3598440F1ECA020500B829FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				359844211ECA020500B829FB /* Document.m in Sources */,
+				3598441E1ECA020500B829FB /* ViewController.m in Sources */,
+				3598441B1ECA020500B829FB /* main.m in Sources */,
+				359844181ECA020500B829FB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		359844281ECA020600B829FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				359844311ECA020600B829FB /* AudioSwitchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		359844331ECA020600B829FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3598443C1ECA020600B829FB /* AudioSwitchUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3598442E1ECA020600B829FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 359844121ECA020500B829FB /* AudioSwitch */;
+			targetProxy = 3598442D1ECA020600B829FB /* PBXContainerItemProxy */;
+		};
+		359844391ECA020600B829FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 359844121ECA020500B829FB /* AudioSwitch */;
+			targetProxy = 359844381ECA020600B829FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		359844241ECA020500B829FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				359844251ECA020500B829FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3598443E1ECA020600B829FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3598443F1ECA020600B829FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		359844411ECA020600B829FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AudioSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaokun.AudioSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		359844421ECA020600B829FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AudioSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaokun.AudioSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		359844441ECA020600B829FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AudioSwitchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaokun.AudioSwitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioSwitch.app/Contents/MacOS/AudioSwitch";
+			};
+			name = Debug;
+		};
+		359844451ECA020600B829FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AudioSwitchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaokun.AudioSwitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioSwitch.app/Contents/MacOS/AudioSwitch";
+			};
+			name = Release;
+		};
+		359844471ECA020600B829FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AudioSwitchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaokun.AudioSwitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AudioSwitch;
+			};
+			name = Debug;
+		};
+		359844481ECA020600B829FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AudioSwitchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaokun.AudioSwitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AudioSwitch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3598440E1ECA020500B829FB /* Build configuration list for PBXProject "AudioSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3598443E1ECA020600B829FB /* Debug */,
+				3598443F1ECA020600B829FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		359844401ECA020600B829FB /* Build configuration list for PBXNativeTarget "AudioSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				359844411ECA020600B829FB /* Debug */,
+				359844421ECA020600B829FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		359844431ECA020600B829FB /* Build configuration list for PBXNativeTarget "AudioSwitchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				359844441ECA020600B829FB /* Debug */,
+				359844451ECA020600B829FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		359844461ECA020600B829FB /* Build configuration list for PBXNativeTarget "AudioSwitchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				359844471ECA020600B829FB /* Debug */,
+				359844481ECA020600B829FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3598440B1ECA020500B829FB /* Project object */;
+}
