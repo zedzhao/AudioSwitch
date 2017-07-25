@@ -15,6 +15,7 @@
 		359844261ECA020500B829FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 359844241ECA020500B829FB /* Main.storyboard */; };
 		359844311ECA020600B829FB /* AudioSwitchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 359844301ECA020600B829FB /* AudioSwitchTests.m */; };
 		3598443C1ECA020600B829FB /* AudioSwitchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3598443B1ECA020600B829FB /* AudioSwitchUITests.m */; };
+		3598444B1ECA022700B829FB /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3598444A1ECA022700B829FB /* CoreAudio.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		359844371ECA020600B829FB /* AudioSwitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioSwitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3598443B1ECA020600B829FB /* AudioSwitchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioSwitchUITests.m; sourceTree = "<group>"; };
 		3598443D1ECA020600B829FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3598444A1ECA022700B829FB /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3598444B1ECA022700B829FB /* CoreAudio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +89,7 @@
 				3598442F1ECA020600B829FB /* AudioSwitchTests */,
 				3598443A1ECA020600B829FB /* AudioSwitchUITests */,
 				359844141ECA020500B829FB /* Products */,
+				359844491ECA022600B829FB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +144,14 @@
 				3598443D1ECA020600B829FB /* Info.plist */,
 			);
 			path = AudioSwitchUITests;
+			sourceTree = "<group>";
+		};
+		359844491ECA022600B829FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3598444A1ECA022700B829FB /* CoreAudio.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
